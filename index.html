@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chains of Eternity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="cross-icon">
+    <img src="Vale.png" alt="Vale cross" class="vale-cross">
+  </div>
+
+  <header>
+    <h1>Chains of Eternity</h1>
+    <p>Read the serialized novel — new chapters added by the author.</p>
+    <p>Welcome. This is the author site for Chains of Eternity. Click 'Read Chapters' to begin.</p>
+    <p>The website has a small mascot, background music controls, and a glossary for world terms.</p>
+  </header>
+
+  <div class="button-row">
+    <a href="chapters.html" class="btn pink">Read Chapters</a>
+    <a href="glossary.html" class="btn purple">Glossary</a>
+  </div>
+
+  <div class="button-row">
+    <button id="startReading" class="btn">Start Reading</button>
+    <button id="playMusic" class="btn rune">Play Music</button>
+  </div>
+
+  <div id="lion-buddy"></div>
+
+  <div id="comment-section">
+    <h3>Comments</h3>
+    <ul id="comments-list"></ul>
+    <textarea id="comment-input" placeholder="Leave a comment..."></textarea>
+    <button id="submit-comment">Post</button>
+  </div>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.24.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.24.0/firebase-database-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDr7A9YCszLBlqhqVEqJEyMA6BUsrp58O0",
+      authDomain: "eterna-fire.firebaseapp.com",
+      databaseURL: "https://eterna-fire-default-rtdb.firebaseio.com",
+      projectId: "eterna-fire",
+      storageBucket: "eterna-fire.appspot.com",
+      messagingSenderId: "585825943919",
+      appId: "1:585825943919:web:277f4b0e7dbcf8280a689a"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

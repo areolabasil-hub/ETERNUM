@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff3366;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.pink {
+  background-color: #ff3366;
+}
+
+.purple {
+  background-color: #9933ff;
+}
+
+.rune {
+  background-image: radial-gradient(circle at center, #3366ff 0%, #000 100%);
+  border: 2px solid #3366ff;
+}
+
+.button-row {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.chapter-list li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.chapter-text {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+#lion-buddy {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#playMusic {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#cross-icon {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background-image: url('assets/cross.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.glossary-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.term {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: help;
+}
+
+.term:hover {
+  background-color: #292929;
+  color: #66ccff;
+}
+
+#comment-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+#comment-input {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0d0d0d;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+#submit-comment {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3366ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+#comments-list li {
+  margin-bottom: 10px;
+  background-color: #262626;
+  padding: 10px;
+  border-radius: 5px;
+}
